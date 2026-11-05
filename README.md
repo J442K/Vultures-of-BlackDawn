@@ -17,7 +17,7 @@ Connected repository: https://github.com/deadsots7-cmyk/Vultures-of-BlackDawn
 
 Configured Pages address: https://deadsots7-cmyk.github.io/Vultures-of-BlackDawn/
 
-An optional manual Actions workflow is included. To use it, switch Pages Source to **GitHub Actions**, then run **Deploy Blackdawn website**. The account currently reports a billing lock for Actions, so branch publishing is selected instead. Deployment availability must be checked after GitHub processes it.
+An optional manual Actions workflow is included. To use it, switch Pages Source to **GitHub Actions**, then run **Deploy Blackdawn website**. This repository currently uses static branch publishing.
 
 See [GitHub's Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
