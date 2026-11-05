@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "minecraft": { "host": "RaviconSMP.mc.gg", "port": 25565 },
+  "automodpack": {
+    "host": "RaviconSMP.mc.gg",
+    "port": 25565,
+    "connectionMode": "HOLEPUNCH",
+    "fingerprint": "1bd783283ee9daf3a6c2f69518b6a1ed3e611947c788d0a882a4619754b0fc91"
+  }
+}
