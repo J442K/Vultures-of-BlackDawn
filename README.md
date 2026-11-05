@@ -13,9 +13,9 @@ Run `python -m http.server 4173` in this folder, then visit http://localhost:417
 3. Select **main** and **/ (root)**, then save. `.nojekyll` keeps this a plain static site.
 4. The completed deployment provides the website URL. All asset paths support repository subpaths and custom domains.
 
-Connected repository: https://github.com/deadsots7-cmyk/Vultures-of-BlackDawn
+Connected repository: https://github.com/J442K/Vultures-of-BlackDawn
 
-Configured Pages address: https://deadsots7-cmyk.github.io/Vultures-of-BlackDawn/
+Configured Pages address: https://J442K.github.io/Vultures-of-BlackDawn/
 
 An optional manual Actions workflow is included. To use it, switch Pages Source to **GitHub Actions**, then run **Deploy Blackdawn website**. This repository currently uses static branch publishing.
 
