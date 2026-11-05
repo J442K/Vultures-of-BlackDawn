@@ -8,11 +8,16 @@ Run `python -m http.server 4173` in this folder, then visit http://localhost:417
 
 ## Publish on GitHub Pages
 
-1. Create a GitHub repository (for example `blackdawn`) with `main` as the default branch.
-2. Push this folder's contents, including `.github/workflows/pages.yml`, to the repository. Do not upload the Windows installer as a repository file.
-3. In the repository, open **Settings → Pages → Source → GitHub Actions**.
-4. Run **Actions → Deploy Blackdawn website → Run workflow**, or push a new commit to `main`.
-5. The completed deployment provides the website URL. All asset paths support repository subpaths and custom domains.
+1. Push this folder's contents to a GitHub repository with `main` as the default branch. Do not upload the Windows installer as a repository file.
+2. In the repository, open **Settings → Pages → Source → Deploy from a branch**.
+3. Select **main** and **/ (root)**, then save. `.nojekyll` keeps this a plain static site.
+4. The completed deployment provides the website URL. All asset paths support repository subpaths and custom domains.
+
+Connected repository: https://github.com/deadsots7-cmyk/Vultures-of-BlackDawn
+
+Configured Pages address: https://deadsots7-cmyk.github.io/Vultures-of-BlackDawn/
+
+An optional manual Actions workflow is included. To use it, switch Pages Source to **GitHub Actions**, then run **Deploy Blackdawn website**. The account currently reports a billing lock for Actions, so branch publishing is selected instead. Deployment availability must be checked after GitHub processes it.
 
 See [GitHub's Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
 
