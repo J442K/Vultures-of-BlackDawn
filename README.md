@@ -1,6 +1,6 @@
 # Vultures of Blackdawn website
 
-A responsive, static launcher website. Plain HTML, CSS, and JavaScript; no build or server needed on GitHub Pages. Artwork comes from the Blackdawn launcher. The launcher window on the page is an HTML illustration, not an interactive game client.
+A responsive, static launcher website. Plain HTML, CSS, and JavaScript; no build or server needed on GitHub Pages. Artwork comes from the Blackdawn launcher. The launcher showcase uses an actual window screenshot captured from the compiled Windows application.
 
 ## Preview locally
 
