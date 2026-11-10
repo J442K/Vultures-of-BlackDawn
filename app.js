@@ -19,7 +19,9 @@
   label.textContent = 'View Windows releases';
   note.textContent = 'Find the Windows installer on GitHub Releases.';
   try {
-    const response = await fetch(`https://api.github.com/repos/${repository}/releases/latest`, { signal: AbortSignal.timeout(7000) });
+    const tag = window.BLACKDAWN?.releaseTag?.trim();
+    const endpoint = tag ? `tags/${encodeURIComponent(tag)}` : "latest";
+    const response = await fetch(`https://api.github.com/repos/${repository}/releases/${endpoint}`, { signal: AbortSignal.timeout(7000) });
     if (!response.ok) return;
     const release = await response.json();
     const installer = release.assets?.find(asset => /^Vultures.of.Blackdawn-Setup-.*\.exe$/i.test(asset.name));
